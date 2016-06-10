@@ -183,6 +183,7 @@ public class MetodoJacobi extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        txtMatriz.setEditable(false);
         txtMatriz.setColumns(20);
         txtMatriz.setRows(5);
         jScrollPane1.setViewportView(txtMatriz);
@@ -194,10 +195,12 @@ public class MetodoJacobi extends javax.swing.JFrame {
             }
         });
 
+        txtSoluciones.setEditable(false);
         txtSoluciones.setColumns(20);
         txtSoluciones.setRows(5);
         jScrollPane2.setViewportView(txtSoluciones);
 
+        txtValores.setEditable(false);
         txtValores.setColumns(20);
         txtValores.setRows(5);
         jScrollPane3.setViewportView(txtValores);
@@ -223,6 +226,7 @@ public class MetodoJacobi extends javax.swing.JFrame {
             }
         });
 
+        txtResultado.setEditable(false);
         txtResultado.setColumns(20);
         txtResultado.setRows(5);
         jScrollPane4.setViewportView(txtResultado);
